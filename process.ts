@@ -1,3 +1,4 @@
+import { assert } from "https://deno.land/std@0.194.0/_util/asserts.ts";
 import { readLines } from "https://deno.land/std@0.194.0/io/mod.ts";
 
 const SHOW_FILE_NAMES = false;
@@ -7,6 +8,7 @@ const START_OF_ENTRIES = "-----File: b0001l.png";
 const END_OF_ENTRIES = "THE END.";
 const KEPT_EDITOR_NOTE = /\[\*\*[ ]?([^\]]|----)\]/g;
 const REMOVED_EDITOR_NOTE = /\[\*\*[^\]]*\]/g;
+const DASH_START_ENTRIES = /^----[^-]/;
 
 const CORRECTIONS = new Map<string, string>([
   [`<i>affable</i>:`, `<b>affable</b>:`],
@@ -93,21 +95,16 @@ export function handleEditorNotes(input: string): string {
   return input.replace(KEPT_EDITOR_NOTE, "$1").replace(REMOVED_EDITOR_NOTE, "");
 }
 
-/**
- * Rules for starting articles:
- * 1. Single letter + . can be skipped
- * 2.
- */
-
-async function processFile() {
+async function getArticles(): Promise<string[][]> {
   const file = await Deno.open("./sh_F2_latest.txt");
   if (file === null) {
-    return;
+    return [];
   }
-  const entries: ShEntry[] = [];
+
   let nextHeaderIndex = 0;
   let state: ParseState = "Unstarted";
   let lastFile: string | null = null;
+  const allArticles: string[][] = [];
   for await (const input of readLines(file)) {
     if (input.startsWith(START_OF_FILE)) {
       lastFile = input;
@@ -132,31 +129,17 @@ async function processFile() {
         if (line.startsWith("<b>")) {
           // The expected case - a new article is starting.
           state = "InArticle";
+          allArticles.push([line]);
           continue;
         }
-        if (line.startsWith("---- <b>")) {
-          // A special case, where the dashes should be filled in by
-          // the name of the last non-dashed article. Note that the bold
-          // after the space should also be considered part of the entry name.
+        if (DASH_START_ENTRIES.test(line)) {
           state = "InArticle";
-          continue;
-        }
-        if (line.startsWith("----, <b>")) {
-          // A special case, where the dashes should be filled in by
-          // the name of the last non-dashed article. Note that the bold
-          // after the comma should also be considered part of the entry name.
-          state = "InArticle";
-          continue;
-        }
-        if (line.startsWith("---- ")) {
-          // A special case, where the dashes should be filled in by
-          // the name of the last non-dashed article. This only happens once.
-          state = "InArticle";
+          allArticles.push([line]);
           continue;
         }
         if (line === "/*") {
-          // TODO: Figure out what to do here
           state = "InArticle";
+          allArticles.push([line]);
           continue;
         }
 
@@ -170,31 +153,82 @@ async function processFile() {
         }
 
         if (SENSE_LEVELS.test(line.split(".")[0])) {
-          // We have a sense that was accidentally separated from its article.
-          // This should be added on to the previous sense.
           state = "InArticle";
+          // We have a sense that was accidentally separated from its article.
+          assert(allArticles.length > 0, "Need to have a last article");
+          allArticles[allArticles.length - 1].push(line);
           continue;
         }
 
         if (SHOW_FILE_NAMES) {
           console.log(lastFile);
         }
-        console.log(line);
-
-        state = "InArticle";
-        break;
+        throw new Error("Unexpected line");
       case "InArticle":
+        if (line.startsWith(START_OF_FILE)) {
+          continue;
+        }
+        assert(allArticles.length > 0, "Need to have a last article");
+        allArticles[allArticles.length - 1].push(line);
         if (lineEmpty(line)) {
           state = "MaybeEndingArticle";
         }
         break;
       case "MaybeEndingArticle":
+        if (line.startsWith(START_OF_FILE)) {
+          continue;
+        }
+        assert(allArticles.length > 0, "Need to have a last article");
+        allArticles[allArticles.length - 1].push(line);
         state = lineEmpty(line) ? "NotInArticle" : "InArticle";
         break;
       default:
         return exhaustiveGuard(state);
     }
   }
+  return allArticles;
 }
 
-processFile();
+function processArticles(rawArticles: string[][]): ShEntry[] {
+  const entries: ShEntry[] = [];
+  let lastUndashed: string | null = null;
+  for (const article of rawArticles) {
+    if (article[0].startsWith("<b>")) {
+      // Figure out what's in the <b> tags and set lastUndashed to this
+    }
+  }
+  // if (line.startsWith("---- <b>")) {
+  //   // A special case, where the dashes should be filled in by
+  //   // the name of the last non-dashed article. Note that the bold
+  //   // after the space should also be considered part of the entry name.
+  //   state = "InArticle";
+  //   continue;
+  // }
+  // if (line.startsWith("----, <b>")) {
+  //   // A special case, where the dashes should be filled in by
+  //   // the name of the last non-dashed article. Note that the bold
+  //   // after the comma should also be considered part of the entry name.
+  //   state = "InArticle";
+  //   continue;
+  // }
+  // if (line.startsWith("---- ")) {
+  //   // A special case, where the dashes should be filled in by
+  //   // the name of the last non-dashed article. This only happens once.
+  //   state = "InArticle";
+  //   continue;
+  // }
+  // if (line === "/*") {
+  //   // TODO: Here we have multiple headings for the same article.
+  //   // So we need to start headings in parallel, compute the content for
+  //   // the article, and attach the content to all headings.
+  //   state = "InArticle";
+  //   allArticles.push([line]);
+  //   continue;
+  // }
+}
+
+const articles = await getArticles();
+for (const article of articles) {
+  console.log(article);
+  console.log("\n*************\n");
+}
