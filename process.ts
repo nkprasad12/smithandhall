@@ -5,6 +5,8 @@ const SHOW_FILE_NAMES = false;
 const START_OF_FILE = "-----File:";
 const START_OF_ENTRIES = "-----File: b0001l.png";
 const END_OF_ENTRIES = "THE END.";
+const KEPT_EDITOR_NOTE = /\[\*\*[ ]?([^\]]|----)\]/g;
+const REMOVED_EDITOR_NOTE = /\[\*\*[^\]]*\]/g;
 
 const CORRECTIONS = new Map<string, string>([
   [`<i>affable</i>:`, `<b>affable</b>:`],
@@ -87,12 +89,8 @@ function lineEmpty(input: string): boolean {
   return input.trim().length === 0;
 }
 
-function handleEditorNotes(input: string): string {
-  // const EDITOR_NOTE = /\[\*\*([^\]]+)\]/;
-  // TODO: For notes that are a space and a single character, like
-  // [** /], just replace with that character (in this case / ).
-  // Also keep [** ----]
-  return input;
+export function handleEditorNotes(input: string): string {
+  return input.replace(KEPT_EDITOR_NOTE, "$1").replace(REMOVED_EDITOR_NOTE, "");
 }
 
 /**
@@ -150,7 +148,14 @@ async function processFile() {
           state = "InArticle";
           continue;
         }
+        if (line.startsWith("---- ")) {
+          // A special case, where the dashes should be filled in by
+          // the name of the last non-dashed article. This only happens once.
+          state = "InArticle";
+          continue;
+        }
         if (line === "/*") {
+          // TODO: Figure out what to do here
           state = "InArticle";
           continue;
         }
