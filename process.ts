@@ -56,6 +56,7 @@ const CORRECTIONS = new Map<string, string>([
 ]);
 
 const HEADERS = "ABCDEFGHIJKLMNOPQRSTUVWYZ";
+const SENSE_LEVELS = /^([A-Za-z0-9]|I|II|III|IV|V)$/;
 
 interface ShSense {
   level: string;
@@ -130,22 +131,51 @@ async function processFile() {
         if (lineEmpty(line)) {
           continue;
         }
-        if (
-          !line.startsWith("<b>") && !line.startsWith("----, <b>") &&
-          !line.startsWith("---- <b>") && line !== "/*"
-        ) {
-          if (
-            /^[A-Z]\.$/.test(line) && nextHeaderIndex < HEADERS.length &&
-            line === HEADERS.charAt(nextHeaderIndex) + "."
-          ) {
-            nextHeaderIndex += 1;
-            continue;
-          }
-          if (SHOW_FILE_NAMES) {
-            console.log(lastFile);
-          }
-          console.log(line);
+        if (line.startsWith("<b>")) {
+          // The expected case - a new article is starting.
+          state = "InArticle";
+          continue;
         }
+        if (line.startsWith("---- <b>")) {
+          // A special case, where the dashes should be filled in by
+          // the name of the last non-dashed article. Note that the bold
+          // after the space should also be considered part of the entry name.
+          state = "InArticle";
+          continue;
+        }
+        if (line.startsWith("----, <b>")) {
+          // A special case, where the dashes should be filled in by
+          // the name of the last non-dashed article. Note that the bold
+          // after the comma should also be considered part of the entry name.
+          state = "InArticle";
+          continue;
+        }
+        if (line === "/*") {
+          state = "InArticle";
+          continue;
+        }
+
+        if (
+          /^[A-Z]\.$/.test(line) && nextHeaderIndex < HEADERS.length &&
+          line === HEADERS.charAt(nextHeaderIndex) + "."
+        ) {
+          // We got a section header - A, B, C, D, E, etc...
+          nextHeaderIndex += 1;
+          continue;
+        }
+
+        if (SENSE_LEVELS.test(line.split(".")[0])) {
+          // We have a sense that was accidentally separated from its article.
+          // This should be added on to the previous sense.
+          state = "InArticle";
+          continue;
+        }
+
+        if (SHOW_FILE_NAMES) {
+          console.log(lastFile);
+        }
+        console.log(line);
+
         state = "InArticle";
         break;
       case "InArticle":
