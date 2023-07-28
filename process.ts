@@ -9,6 +9,7 @@ const END_OF_ENTRIES = "THE END.";
 const KEPT_EDITOR_NOTE = /\[\*\*[ ]?([^\]]|----)\]/g;
 const REMOVED_EDITOR_NOTE = /\[\*\*[^\]]*\]/g;
 const DASH_START_ENTRIES = /^----[^-]/;
+const BOLD_PATTERN = /<b>([^<]+)<\/b>/;
 
 const CORRECTIONS = new Map<string, string>([
   [`<i>affable</i>:`, `<b>affable</b>:`],
@@ -190,11 +191,22 @@ async function getArticles(): Promise<string[][]> {
 }
 
 function processArticles(rawArticles: string[][]): ShEntry[] {
+  // Rough algorithm:
+  // 1. Fix any ----
+  // 2. Compute entry key by splitting on :
+  // 3. Take everything else up to the next line break as the blurb
+  // 4. After that, chunks are separated by line breaks
+  // 5. For each chunk, split on the first "."
+  // 6. The first half becomes the sense level, everything after is sense text
+
   const entries: ShEntry[] = [];
   let lastUndashed: string | null = null;
   for (const article of rawArticles) {
     if (article[0].startsWith("<b>")) {
-      // Figure out what's in the <b> tags and set lastUndashed to this
+      const matchResult = article[0].match(BOLD_PATTERN);
+      assert(matchResult !== null, `match null for ${article[0]}`);
+      const entryName = matchResult[0];
+      lastUndashed = entryName;
     }
   }
   // if (line.startsWith("---- <b>")) {
