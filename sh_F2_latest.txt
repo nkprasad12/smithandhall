@@ -44752,7 +44752,7 @@ Ter.
 3. ēvax:
 Pl.
 
-4. mactĕ (<i>sing.</i>), macti (<i>piu</i>[**dot missing;P2: piu?]),
+4. mactĕ (<i>sing.</i>), macti (<i>pl.</i>),
 either alone or with virtute esto <i>or</i> este:
 Cic.:[**upper dot didn't print] Hor.
 
@@ -84803,7 +84803,7 @@ Helvetii</i>, ne Germani ex suis finibus in
 Helvetiorum fines transirent, Caes.:
 Sall.
 
-4. transgrĕior, 3: <i>to c. over
+4. transgrĕdior, 3: <i>to c. over
 into Corsica</i>, in Corsicam tr., Liv.: Tac.
 
 5. transmitto, 3: <i>from Corsica
