@@ -5434,7 +5434,7 @@ strictness, but by no means of a.</i>, severitatem
 probo, a. nullo modo, Cic.
 
 
-<b>acetate</b>: *ăcētas, ātis, <f>f.</f>, M. L.
+<b>acetate</b>: *ăcētas, ātis, f., M. L.
 
 
 <b>ache</b> (<i>v.</i>): dŏleo, 2: <i>my tooth a.s</i>,
@@ -42650,7 +42650,7 @@ v. <f>BY HEART</f>.
 II. <i>A division or
 portion of a literary work</i>:
 
-1. līber:
+1. lĭber:
 <i>three b.s respecting the nature of the
 gods are finished</i>, tres l. perfecti sunt
 de natura Deorum, Cic.: <i>I have lately
@@ -44752,7 +44752,7 @@ Ter.
 3. ēvax:
 Pl.
 
-4. mactĕ (<i>sing.</i>), macti (<i>piu</i>[**dot missing;P2: piu?]),
+4. mactĕ (<i>sing.</i>), macti (<i>pl.</i>),
 either alone or with virtute esto <i>or</i> este:
 Cic.:[**upper dot didn't print] Hor.
 
@@ -62040,6 +62040,7 @@ auctorum exemplum scribere.
 2. crĕpĭto, 1: <i>the
 swords c. on the hard anvils</i>, duris c.
 incudibus enses, Virg.
+
 
 /*
 <b>clatter</b>[** ,]       }
@@ -84802,7 +84803,7 @@ Helvetii</i>, ne Germani ex suis finibus in
 Helvetiorum fines transirent, Caes.:
 Sall.
 
-4. transgrĕior, 3: <i>to c. over
+4. transgrĕdior, 3: <i>to c. over
 into Corsica</i>, in Corsicam tr., Liv.: Tac.
 
 5. transmitto, 3: <i>from Corsica
@@ -135528,7 +135529,7 @@ exsulare, Cic.: Liv.
 II. <i>The state</i> or
 <i>penalty of an exile</i>:
 
-1. exsŏrīlium
+1. exsĭlium
 (exil-): <i>to punish any one with e.</i>, aliquem
 exsilio multare, afficere, Cic.: <i>to
 drive into e.</i>, in ex. ejicere, pellere, Cic.:
@@ -144856,7 +144857,7 @@ Ep. 7, 3.
 
 
 <b>fencing</b> (<i>subs.</i>): as art, ars ludicra
-armorum,[**P2: ,] Cic. de Or. 2, 20, 84; gladii
+armorum, Cic. de Or. 2, 20, 84; gladii
 ars, Sen. Ep. 7, 3. Phr.: <i>to go through
 f. exercise</i>, gladio se exercere, Veg.
 1, 11.
@@ -200803,7 +200804,7 @@ v. <f>TO INSTITUTE</f>.
 
 I. <i>To teach</i>:
 
-1[**missing period]
+1.
 ērŭdio,[**P2: ,] 4 (<i>to educate</i>):[**upper dot missing] <i>to i. any one in
 civil law</i>, e. aliquem in jure civili.[**P2: ,] Cic.
 de Or. 1, 59, <i>extr.</i>: also foll. by ad and
@@ -212091,6 +212092,7 @@ v. <f>LAX</f>, 3).
 4. neglĭgenter: v.
 <f>CARELESSLY</f>.
 
+
 /*
 <b>laxness</b> }
 <b>laxity</b>  }
@@ -218868,7 +218870,7 @@ l. a cause at law</i>, causam p., Cic. R. Com.
 1, 451. Stronger is deperdo, 3:[**P2: dot missing] Cic.
 Prov. Cons. 5, 11[**P2: .]
 
-2. āmit o[**P2: āmitto], 3 (often
+2. āmitto, 3 (often
 of <i>accidental loss</i>; whereas perdo is
 mostly <i>to lose blamably</i> or <i>wilfully</i>;
 also, amitto may imply <i>the possibility
@@ -231335,7 +231337,7 @@ Liv. 2, 33, <i>extr.</i> (The expr. in Vulg. Mar.
 xii. 42. is duo minuta = <i>two small coins</i>.)
 
 
-<b>miti ate</b>[**P1: missing g: mitigate]:
+<b>mitigate</b>:
 
 1. mītĭgo, 1 (<i>to diminish
 the severity of</i> anything: whether
@@ -236682,7 +236684,7 @@ m. viper</i>, m. cauda colubrae, Ov. M. 6,
 3. truncus (strictly, <i>having lost
 head or arms</i>; but used poet. of <i>mutilation
 in gen. sense</i>): <i>a child with m.
-body (<f>i. e. prob.</f> without a head)</i>, puer
+body (i. e. prob. without a head)</i>, puer
 trunci corporis, Liv. 41, 9, <i>med.</i>: <i>nostrils
 m. with shameful wound</i>, truncae inhonesto
 vulnere nares, Virg. Aen. 6,
@@ -282061,16 +282063,10 @@ paper-making.)
 
 I. In the orig. Latin sense,
 <i>a raised platform to speak from</i>: as,
-
-/*
 "Produce his body to the market-place,
 And in the <i>pulpit</i>, as becomes a friend,
 Speak in the order of his funeral."
-*/
-
-/*
 (Shaksp.)
-*/
 
 1. rostra, orum, <i>n.</i> (<i>the permanent
 gallery</i> across the Roman forum, from
@@ -283138,12 +283134,8 @@ p. acerrimus,[**P2: ,] Suet. Caes. 67.
 
 2.
 expr. by verb:
-
-/*
 "This knows my punisher: therefore as far
 From granting he, as I from begging, peace."--<sc>Milton.</sc>
-*/
-
 *is qui me punitur, me castigat, in me
 animadvertit, in me supplicium sumit,
 ulciscitur, vindicat, etc.
@@ -283969,7 +283961,7 @@ Inst. 3, 5, 6: M. L. (The term is needed
 for the lang. of theological controversy;
 but must be excluded from Latin com-*
 -----File: b0597l.png------------------------------------------------------
-position making any pretensions to elegance.
+*position making any pretensions to elegance.
 Use these rather, *ignes lustrales
 <i>s.</i> purgatorii; *is locus in quo
 mortui poenis lustralibus exercentur.)
@@ -284432,13 +284424,8 @@ sound</i> (of water: "the brook that <i>purls
 along the vocal grove</i>," opp. to "<i>fretting
 o'er a rock</i>"): the same opposition in
 the two foll. lines:--
-
-/*
 "Laeta susurrantes fugiunt per gramina rivi;" and,
-
 "It praeceps per saxa sonans spumantia rivis."
-*/
-
 [**noindent]Perh. best single words, murmŭro and
 sŭsurro, 1: but various poet. terms and
 phrases may be used for the v. and the
@@ -285147,16 +285134,9 @@ institui Topica conscribere, id. Fam. 7,
 <f>DESIGNED</f>, <i>e. g.</i> "a purposed
 thing," Shaksp.; "his purposed prey,"
 Milton;
-
-/*
 "Oaths were not purposed, more than law,
 To keep the just and good in awe."
-*/
-
-/*
-<i>Hudibras</i>
-*/
-
+<i>Hudibras</i>.
 [**noindent]Also in the common sense, prōpŏsĭtus,
 cōgĭtātus, stătūtus, destĭnātus: <i>a p.
 crime</i>, cogitatum facinus,[**P2: ,] Suet. Tib. 19.
@@ -285538,12 +285518,8 @@ insecutoribus, Apul. M. 7, <i>init.</i>
 ins. vitiorum, Quint. 10, 1, 129. May
 perh. serve for the peculiar sense used
 by Denham in
-
-/*
 "Like a declining statesman, left forlorn,
 To his friends' pity and pursuers' scorn."
-*/
-
 [**noindent]Or inimicus may be used.
 
 4. persecūtor,
@@ -289099,14 +289075,10 @@ a p. manner</i>, per ambages, Liv. 1, 56.
 Beyond the Indian mount, warred on
 by cranes," Milton): pygmaeus: cf. Juv.
 13, 166, <i>seqq.</i>:
-
-/*
 Ad subitas Thracum volucres, nubemque sonoram
 Pygmaeus parvis currit bellator in armis:
 Mox impar hosti, raptusque per aëra curvis
 Unguibus a saeva fertur grue:
-*/
-
 [**noindent]cf. id. 6, 504: Gell. 9, 4: Mela, 3, 8,
 8: Plin. 4, 11: id. 5, 29: id. 6, 30, 35:
 id. 7, 2.
@@ -289189,15 +289161,9 @@ pyrrhĭchĭus (πυῤῥίχιος), with or without
 pes, Quint. 9, 4, 80. The adj. may
 also be used for <i>the pyrrhic phalanx</i>,
 *phalanx pyrrhichia:
-
-/*
 "Ye have the pyrrhic dance as yet:
 Where is the pyrrhic phalanx gone?"
-*/
-
-/*
 <sc>Byron.</sc>
-*/
 
 
 <b>pyrrhonism</b>: *Pyrrhōnis doctrina.
@@ -290590,12 +290556,8 @@ travail to requite</i>," Dryden, fr. Virg. E.
 menses: <i>to cure a q.</i>, f. abigere, Plin.
 23, 9, 81: <i>of a q. caused by the sight of
 an object</i>;
-
-/*
 ("For who without a qualm hath ever looked
 On holy garbage, though by Homer cooked?")
-*/
-
 [**noindent]cf. fig. nosti enim non modo stomachi
 mei, sed etiam oculorum, in hominum
 insolentium indignitate, fastidium, Cic.
@@ -292506,14 +292468,10 @@ Act. xii. 4: cf. <f>QUATRE</f>.
 i, <i>n.</i>: cf. (adeo) ut Ovidius ex tetrastichon
 Macri carmine librum composuerit,
 Quint. 6, 3, 96: cf. Mart. 8, 85--
-
-/*
 Quod non insulse scribis tetrasticha quaedam,
 Disticha quod belle pauca, Sabelle, facis,
 Laudo, nec admiror: facile est epigrammata belle
 Scribere; sed librum scribere difficile est.
-*/
-
 [**noindent]Perh. also *versus quaterni (as etym.
 equiv.).
 
@@ -292578,11 +292536,8 @@ quays of the city</i> (Syracuse), piraticus
 myoparo usque ad omnes urbis crepidines
 accessit, Cic. Verr. 5, 37, 97: cf.
 Virg. Aen. 10, 653:
-
-/*
 Forte ratis celsi conjuncta crepidine saxi
 Expositis stabat scalis, et ponte parato.
-*/
 -----File: b0619m.png------------------------------------------------------
 
 2. margo (ĭnis, <i>m.</i> and <i>f.</i>) lăpĭdeus:
@@ -292644,20 +292599,12 @@ Jer. xiii. 18.) (ii.) <i>A q. regnant</i>:
 reginae nomen, id. Aen. 11, 223: <i>the q.
 goes in procession with a great retinue
 of matrons</i>, cf. ib. 478,
-
-/*
 Necnon ad templum summasque ad Palladis arces,
 Subvehitur magna matrum regina caterva:
-*/
-
 [**noindent]<i>the courtiers attend the q.'s levee</i>, cf. ib.
 4, 133,
-
-/*
 Reginam thalamo cunctantem ad limina primi
 Poenorum exspectant:
-*/
-
 [**noindent]<i>the q. dismounted at the palace-gate</i>,
 portisque ab equo regina sub ipsis
 desiluit, ib. 11, 223. (iii.) <i>A queen-dowager</i>,
@@ -292684,12 +292631,8 @@ with crescent horns," Milton). Transf.
 <i>of any power</i>, e. g. <i>money</i> named with
 other deified powers: cf. Hor. Ep. 1, 6,
 37:--
-
-/*
 Et genus et formam regina Pecunia donat,
 Ac bene nummatum decorat Suadela Venusque.
-*/
-
 [**noindent](Note[**small caps?]: domina may sometimes be used:
 <i>e. g.</i> of Cybele, Virg. Aen. 3, 113: of
 Venus, Ov. A. A. 1, 148: of Juno, Prop.
@@ -292805,12 +292748,8 @@ comprimas atque restinguas, Cic.
 Pis. 25, 59. Pass. <i>to be quelled</i>: Join:
 comprimi et quiescere: cf. Virg. G. 4,
 86-7 (<i>mock-heroic, of bees</i>)--
-
-/*
 Hi motus animorum atque haec certamina tanta
 Pulveris exigui jactu compressa quiescent:
-*/
-
 [**noindent]opprĭmo: Join: opprimo et conficio:
 <i>what avails Valour or strength, though
 matchless, quelled with pain, Which all
@@ -292956,11 +292895,8 @@ when a fire in full force is quenched by
 a volume of water</i>); senes autem sicut
 sua sponte, nulla adhibita vi, consumptus
 ignis exstinguitur, Cic. Sen. 19, 21: (cf.
-
-/*
 "A little fire is quickly <i>trodden out</i>,
 Which, being suffered, rivers cannot <i>quench</i>."--Shaksp.)
-*/
 
 4. vinco, vīci, victum, 3 (<i>to over-*power</i>):
 (poet.) <i>to q. a body of fire with
@@ -294851,12 +294787,8 @@ per Syrtes iter aestuosas, Hor. Od. 1, 22,
 5: <i>q.-sands stirred up by the S. wind</i>,
 s. exercitatae Noto, id. Epod. 9, 3: cf.
 description, Avien. Perieg. 293:
-
-/*
 "Major vasta sibi late trahit aequora Syrtis
 Infidumque[** Infidumgue] rati pelagus furit."
-*/
-
 [**noindent]Cf. Propert. 2, 7, 71, incerto mutantur
 flamine syrtes: epithets (<i>sing.</i> and <i>pl.</i>):
 <i>shifting</i>, and <i>faithless</i>, incerta, Sen.
@@ -295731,13 +295663,9 @@ I. A scholastic term,
 <i>that which answers to the question</i> quid
 est? v. <f>ESSENCE</f>: in med. Lat. quiddĭtas,
 <i>f.</i> (cf.:--
-
-/*
 "Where <i>entity and quiddity</i>,
 The ghosts of defunct bodies lie"
-
 <i>Hudibras</i>).
-*/
 
 II. Hence, derisively, <i>a trivial question</i>,
 captiuncula: quaestio captiosa:
@@ -296073,12 +296001,8 @@ Sest. 9.[**P2: ,] 21: <i>q. (<f>or</f> still) silence</i>, t. silentia:
 -----File: b0629l.png------------------------------------------------------
 cf. Lucr. 4, 584-5 (of the Satyrs, Nymphs,
 and Fauns):--
-
-/*
 "Quorum noctivago strepitu ludoque jocanti
 Affirmant volgo taciturna silentia rumpi."
-*/
-
 [**noindent]Also tăcĭtus (prop. <i>silent</i>): <i>to obtrude
 one's idle talk on a person when he's
 reading or wanting to be q.</i>, legentem aut
@@ -296576,11 +296500,8 @@ cithara): <i>an ivory q.</i>, cf. jamque eadem
 (the seven notes of the cithara) digitis
 jam pectine pulsat eburno, Virg. Aen.
 6, 647:--
-
-/*
 "His flying fingers, and harmonious <i>quill</i>,
 Strike seven distinguished notes, and seven at once they fill."--Dryden.
-*/
 
 V. <i>An instrument used in weaving</i>:
 pecten, ĭnis, <i>m.</i>: called argutus (<i>shrill</i>)
@@ -296690,13 +296611,11 @@ a pentagonal or q. distribution</i>" (of
 trees in a plantation, Ray): cf. quincuncialis
 ordinum ratio (<i>of the rows</i>,
 <i>i. e.</i> thus
-
 /*
 . . . .
  . . .
 . . . .[**symbol]),
 */
-
 [**no new paragraph]Plin. 17, 11, 15.
 -----File: b0630r.png------------------------------------------------------
 
@@ -296704,13 +296623,11 @@ ordinum ratio (<i>of the rows</i>,
 <b>quincunx</b>: a form of plantation:
 name derived fr. the <i>quint</i> (Lat. quincunx)
 on the dice
-
 /*
 . .
  .
 . .[** symbol],
 */
-
 [**no new paragraph]but extended[** missing - fixed]
 indefinitely, so that the trees of
 each row are opp. the intervals of the
@@ -313697,7 +313614,7 @@ trivial points from a speech</i>,[**P2: ,] ea quae
 levissima sunt, ex oratione r., Cic. de Or.
 2, 76, 309.
 
-2. āmveo, 2 (<i>move quite
+2. āmoveo, 2 (<i>move quite
 away</i>): <i>r. that spendthrift from that
 place</i>, nebulonem illum ex istis locis
 amove, Cic. Att. 1, 12: <i>to r. a quaestor
@@ -330814,7 +330731,7 @@ erat quod emineret.
 
 <b>saliva</b>:
 
-1. să]līva: Cat.: Juv.:
+1. sălīva: Cat.: Juv.:
 Plin.
 
 2. spūtum: v. <f>SPITTLE</f>.
@@ -332865,7 +332782,7 @@ VI. <i>In
 music</i>, diagramma, ătis, <i>n.</i>: Vitr. 5, 4, 1:
 <i>the s. from base to treble</i>, scansio sonorum,
 id. 6, 1, 6[**unclear]: also, octăchordum (<i>a system
-of 8 notes</i>), Boëth. Miss. 5, 14; *scala,
+of 8 notes</i>), Boëth. Mus. 5, 14; *scala,
 Kircher, Musurg. vol. i. p. 214 (Rome.[**P1: should be ,]
 1650). Phr.: <i>to run down the s.</i>, vocem
 ab acutissimo sono usque ad gravissimum
@@ -411350,7 +411267,8 @@ appoint an u., etc.</i>, v. <f>ARBITRATOR</f>. For
 difference between arbiter and disceptator,
 v. also <f>ARBITRATOR</f>.
 
-<b>un----.</b>[**P2: prefix so short hyphen|F2: disagree, dash represents rest of word] This prefix gives a negative
+
+<b>un____.</b>[**P2: prefix so short hyphen|F2: disagree, dash represents rest of word] This prefix gives a negative
 signification to the word before which
 it stands, and may be prefixed at pleasure
 to almost any Eng. <i>subs.</i>, <i>adj.</i>, or
@@ -443451,7 +443369,7 @@ mites reddidit et mansuetos, Cic.
 Inv. 1, 2, 2.
 
 2. agrestis, e (<i>of the
-fields <f>as opp.</f> to town</i>): <i>the roots of w.
+fields as opp. to town</i>): <i>the roots of w.
 palms</i>, radices palmarum agrestium,
 Cic. Verr. 5, 38, 99: <i>a w. race of men</i>,
 genus hominum agreste, Sall. C. 6.
@@ -447232,8 +447150,8 @@ abest quin sim miserrimus, Cic. Att. 11,
 15, 3: <i>a man of the w.</i>, homo politus,
 urbanus, lautus (<i>polished</i>): morum peritus,
 multum cum hominibus versatus
-(<i>experienced</i>): <i>knowledge of the w. (<f>as
-opp. to</f> mere scholastic training)</i>, rerum,
+(<i>experienced</i>): <i>knowledge of the w. (as
+opp. to mere scholastic training)</i>, rerum,
 hominum, temporum notitia, Tac. Dial.
 29: <i>as the w. goes</i>, ut sunt mores, Ter.:
 ut nunc est, Hor.: <i>to bring before the w.
